@@ -24,4 +24,4 @@ echo 'The following command runs and outputs the execution of your Java'
 echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 #java -jar target/${NAME}-${VERSION}.jar
-java -jar /var/jenkins_home/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/${NAME}-${VERSION}.jar
+java -jar /var/jenkins_home/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/$NAME-$VERSION.jar
